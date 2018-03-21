@@ -1,0 +1,5 @@
+(1) Apache Groovy is an object-oriented programming language for the Java platform.
+(3) It can be used as a scripting language for the Java Platform, is dynamically compiled to Java virtual machine (JVM) bytecode, and interoperates with other Java code and libraries.
+(5) Most Java code is also syntactically valid Groovy, although semantics may be different.
+(7) Since version 2, Groovy can also be compiled statically, offering type inference, and performance near that of Java.
+(9) Groovy has since changed its governance structure to a Project Management Committee (PMC) in the Apache Software Foundation.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GroovyBasic.iml" filepath="$PROJECT_DIR$/.idea/modules/GroovyBasic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GroovyBasic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GroovyBasic_main.iml" group="GroovyBasic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GroovyBasic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GroovyBasic_test.iml" group="GroovyBasic" />
+    </modules>
+  </component>
+</project>
