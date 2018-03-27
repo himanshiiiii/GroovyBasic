@@ -2,8 +2,8 @@ class Question7 {
     public static void main(String[] args) {
 
         Closure closure={
-            List,num->
-                if(List.contains(num)) {
+            list,num->
+                if(list.contains(num)) {
                     println("True")
 
 

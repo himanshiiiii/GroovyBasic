@@ -1,8 +1,8 @@
  class Person{
-    String name;
-    int age;
-    String gender;
-    String address;
+    public String name;
+    public int age;
+    public String gender;
+    public String address;
 
      public String getName() {
          return name;

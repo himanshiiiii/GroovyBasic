@@ -1,14 +1,14 @@
-public class Question4 extends Question2{
-    public static void main(String[] args) {
+ class Question4 extends Question2{
+     static void main(String[] args) {
         Question4 q4=new Question4()
-        q4.setName("sachin")
-        q4.setAge(55)
-        q4.setAddress("delhi")
-        q4.setCompany("Intelligrape")
-        q4.setEmpId(28389)
-        q4.setSalary(55900000)
+        String name="sachin"
+        int age=55
+        String address="delhi"
+        String company="Intelligrape"
+        int empid=28389
+        int salary=55900000
 
-        println q4.getName()+" is a man aged "+q4.getAge()+" who lives at "+q4.getAddress()+". He works for  "+q4.getCompany()+" with employee id "+q4.getEmpId()+" and draws "+q4.getSalary()+" lots of money !!!!."
+        println ${name}+" is a man aged "+${age}+" who lives at "+${address}+". He works for  "+${company}+" with employee id "+${empId}+" and draws "+${salary}+" lots of money !!!!."
 
     }
 }

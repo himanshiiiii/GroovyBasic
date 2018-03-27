@@ -1,25 +1,45 @@
-public class Question2 extends Person{
-    int EmpId
+class Question2 extends Person {
+    int empId
     String company
     int salary
 
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
+        Question2 ques = new Question2()
+        ques.name="himanshi"
+        ques.age=20
+        ques.address="delhi"
+        ques.gender="female"
+        ques.empId=23456
+        ques.company="TO THE NEW"
+        ques.salary=6732458
 
-        Person per=new Person()
-        Question2 ques=new Question2()
-        per.setName("James")
-        per.setAge(20)
-        per.setAddress("delhi")
-        per.setGender("males")
+// using dot operator
 
-        ques.setEmpId(2836)
-        ques.setCompany("To The New")
-        ques.setSalary(30000)
+        println "employee id " + ques.empId
+        println "company " + ques.company
+        println "salary " + ques.salary
+        println "name " + ques.name
+        println "age " + ques.age
+        println "address " + ques.address
+        println "gender " + ques.gender
 
-        println "Empid: "+ques.getEmpId()+"\ncompany: "+ques.getCompany()+"\nsalary: "+ques.getSalary()
+        println "============================"
 
+        //using getter
+         println "Empid: "+ques.getEmpId()+"\ncompany: "+ques.getCompany()+"\nsalary: "+ques.getSalary()+"\nName: "+ques.getName()+"\nAge: "+ques.getAge()+"\nAddress: "+ques.getAddress()+"\nGender: "+ques.getGender()
 
+        println "============================"
+
+        //using @ operator
+
+        println "employee id "+ques.@empId
+        println "company "+ques.@company
+        println "salary "+ques.@salary
+         println "name "+ques.@name
+         println "age "+ques.@age
+         println "address "+ques.@address
+         println "gender "+ques.@gender
     }
 }
