@@ -48,7 +48,7 @@ class Question5 {
 
 
 
-        List list=new ArrayList()
+        List list=[]
         list.add(null)
         list.add(null)
 

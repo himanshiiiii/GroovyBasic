@@ -8,7 +8,7 @@ class Question6 {
         }
 
 
-        List list=new ArrayList()
+        List list=[]
         list = 1..10
         println list.collect{it*3}
 
