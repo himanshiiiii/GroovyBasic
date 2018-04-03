@@ -1,6 +1,6 @@
 class HourMinute {
-    int hours;
-    int minutes;
+    int hours
+    int minutes
 
     HourMinute (int hours,int minutes){
         this.hours=hours

@@ -4,7 +4,7 @@ class Question9 {
         def des=new File("/home/himanshi/GroovyBasic/src/main/resources/oddNumberedDes.txt")
         int index=1;
         file.eachLine {
-            if(index%2!=0) {
+            if(index%2) {
                 des << ("${index} ${it} \n")
             }
             index++
