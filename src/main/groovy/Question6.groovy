@@ -1,24 +1,21 @@
 class Question6 {
     public static void main(String[] args) {
 
-        def n=1
-        10.times{
-            println(n*3)
-            n++
+        println("Multiple Of 3 with 3 different methods")
+        println("Method 1 : ")
+        (1..10).each {
+
+            println(it*3)
         }
 
-
-        List list=[]
-        list = 1..10
-        println list.collect{it*3}
-
-
-
-        def c = {
-            println it*3
+        println("Method 2:  ")
+        1.upto(10) {
+            println (3*it)
         }
-        1.upto(10, c)
 
-
+        println("Method 3:")
+        for (number in 1..10 ) {
+            println (number*3)
+        }
     }
 }

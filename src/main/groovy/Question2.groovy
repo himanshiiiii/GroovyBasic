@@ -6,40 +6,22 @@ class Question2 extends Person {
 
     static void main(String[] args) {
 
-        Question2 ques = new Question2()
-        ques.name="himanshi"
-        ques.age=20
-        ques.address="delhi"
-        ques.gender="female"
-        ques.empId=23456
-        ques.company="TO THE NEW"
-        ques.salary=6732458
+        Question2 ques = new Question2(name: "Himanshi", age: "20", address: "delhi", gender: "female", empId: 2345, company: "to the new", salary: 234456)
 
 // using dot operator
 
-        println "employee id " + ques.empId
-        println "company " + ques.company
-        println "salary " + ques.salary
-        println "name " + ques.name
-        println "age " + ques.age
-        println "address " + ques.address
-        println "gender " + ques.gender
+        println "employee id " + ques.empId + "\ncompany " + ques.company + "\nsalary " + ques.salary + "\nname " + ques.name + "\nage " + ques.age + "\naddress " + ques.address + "\ngender " + ques.gender
 
         println "============================"
 
         //using getter
-         println "Empid: "+ques.getEmpId()+"\ncompany: "+ques.getCompany()+"\nsalary: "+ques.getSalary()+"\nName: "+ques.getName()+"\nAge: "+ques.getAge()+"\nAddress: "+ques.getAddress()+"\nGender: "+ques.getGender()
+        println "Empid: " + ques.getEmpId() + "\ncompany: " + ques.getCompany() + "\nsalary: " + ques.getSalary() + "\nName: " + ques.getName() + "\nAge: " + ques.getAge() + "\nAddress: " + ques.getAddress() + "\nGender: " + ques.getGender()
 
         println "============================"
 
         //using @ operator
 
-        println "employee id "+ques.@empId
-        println "company "+ques.@company
-        println "salary "+ques.@salary
-         println "name "+ques.@name
-         println "age "+ques.@age
-         println "address "+ques.@address
-         println "gender "+ques.@gender
+        println "employee id " + ques.@empId + "\ncompany " + ques.@company + "\nsalary " + ques.@salary + "\nname " + ques.@name + "\nage " + ques.@age + "\naddress " + ques.@address + "\ngender " + ques.@gender
+
     }
 }
